@@ -1,0 +1,183 @@
+.my_search{
+    width: 100%;
+    height: 2.27rem;
+    background-image: url(../素材/image/index/banner.png);
+    background-repeat: no-repeat;
+    // background-size: auto 2.27rem;
+    background-size: cover;
+    display: flex;
+    flex-direction:column-reverse;
+    input{
+        box-sizing: border-box;
+        width: 80%;
+        height: .3rem;
+        margin: 0 auto;
+        padding-left: .3rem;
+        background: url(../素材/image/index/seach.jpg) no-repeat .05rem center ;
+        background-size: .2rem;
+        margin-bottom: .05rem;
+        font-size: .12rem;
+    }
+}
+
+.my_nav{
+    padding: .08rem .1rem .05rem .1rem;
+    background: #ff8a00;
+    color: #fff;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        li{
+            text-align: center;
+            a{
+                color: #fff;
+            }
+            img{
+                width: 0.55rem;
+                height: 0.55rem;
+                margin-bottom: .05rem;
+            }
+        }
+    }
+}
+
+.my_banner{
+    height: 2.55rem;
+    background: url(../素材/image/index/banner2.png) no-repeat;
+    background-size: cover;
+    margin: .1rem 0;
+}
+
+.hot_house{
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: .085rem;
+    .hot_house_title{
+        background: #ff8a00;
+        padding: .1rem .1rem;
+        color: #fff;
+        font-weight: bold;
+        span{
+            font-size: .15rem;
+        }
+        p{
+            font-size: .12rem;
+        }
+    }
+    .hot_house_main{
+        padding: .015rem .1rem;
+        li{
+            display: flex;
+            padding: .085rem 0;
+            border-bottom: 1px solid #ff8a00;
+        }
+        li:last-child{
+            border: none;
+        }
+        .hot_house_main_img{
+            img{
+                height: .68rem;
+                border-radius: .05rem;
+            }
+        }
+        b{
+            display: block;
+            font-size: .12rem;
+        }
+        .hot_house_main_text{
+            width: 100%;
+            padding-left: .2rem;
+            div{
+                padding: 0.04rem 0;
+            }
+            .hot_text_1{
+                display: flex;
+                b{
+                    flex: 1;
+                }
+                i{
+                    flex: 1;
+                    text-align: center;
+                    font-style: normal;
+                    font-size: .12rem;
+                    color: #ff8a00;
+                }
+            }
+            .hot_text_2{
+                display: flex;
+                p{
+                    flex: 1;
+                    font-size: .12rem;
+                    color: #8b8b8b;
+                }
+                i{
+                    flex: 1;
+                    text-align: center;
+                    font-style: normal;
+                    font-size: .12rem;
+                    color: #8b8b8b;
+                }
+            }
+            .hot_text_3{
+                span{
+                    font-size: 0.12rem;
+                    color: #849aae;
+                    background-color: #f4f7f9;
+                    padding: 0.01rem 0.1rem;
+                }
+            }
+        }
+    }
+}
+
+.my_switch{
+    .swich_header{
+        width: 100%;
+        display: flex;
+        background: #fff;
+        div{
+            flex: 1;
+            height: .4rem;
+            text-align: center;
+            line-height: .4rem;
+            font-size: .14rem;
+            color: #ff8a00;
+        }
+        // .active{
+        //     border-bottom: 1px solid #ff8a00;
+        // }
+    }
+    .swich_main{
+        padding: .1rem 0;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: .4rem;
+            li{
+                width: 50%;
+                padding: 0.1rem;
+                box-sizing: border-box;
+                font-size: .13rem;
+            }
+        }
+    }
+}
+
+.swiper-scrollbar{
+    top: 0rem;
+    height: .4rem !important;
+    border-bottom: 1px solid #ff8a00;
+    position: relative;
+    width: 100% !important;
+    left: 0% !important;
+    border-radius: 0;
+}
+.swiper-scrollbar-drag{
+    border-radius: 0 !important;
+    background: #ff8a00;
+    height: 1px;
+    position: absolute;
+    bottom: 0px !important;
+    top: auto !important;
+}

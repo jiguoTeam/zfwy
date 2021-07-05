@@ -1,0 +1,74 @@
+body {
+  background: #F5F5F5;
+}
+.top {
+  background: url(../素材/image/my/bg1.png);
+  background-size: cover;
+  margin-bottom: 0.1rem;
+}
+.top .my_header {
+  flex-direction: row-reverse;
+  background-color: rgba(0, 0, 0, 0);
+}
+.top .my_header .header_icon {
+  text-align: center;
+  color: #fff;
+}
+.top .my_header .header_icon div {
+  margin-left: 0.2rem;
+}
+.top .my_header .header_icon div img {
+  margin: 0;
+  height: 0.2rem;
+  margin-bottom: 0.02rem;
+}
+.top .my_header .header_icon div p {
+  font-size: 0.12rem;
+}
+.top .top_center {
+  text-align: center;
+}
+.top .top_center img {
+  width: 0.7rem;
+}
+.top .top_center button {
+  margin-top: 0.15rem;
+  margin-bottom: 0.3rem;
+  width: 0.8rem;
+  height: 0.32rem;
+  background: none;
+  border: 1px solid #fff;
+  font-size: 0.17rem;
+  color: #fff;
+  border-radius: 0.05rem;
+}
+.my_my_lis {
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.my_my_lis ul li {
+  display: flex;
+  padding: 0 0.15rem;
+}
+.my_my_lis ul li .my_lis_icon {
+  padding: 0.13rem 0;
+}
+.my_my_lis ul li .my_lis_icon img {
+  height: 0.14rem;
+}
+.my_my_lis ul li .my_lis_main {
+  width: 100%;
+  margin-left: 0.1rem;
+  padding: 0.15rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.my_my_lis ul li .my_lis_main p {
+  color: #3a3a3a;
+  font-size: 0.14rem;
+  background: url(../素材/image/my/right.png) no-repeat right center;
+  background-size: auto 0.14rem;
+}
+.my_my_lis ul li:last-child .my_lis_main {
+  border: none;
+}

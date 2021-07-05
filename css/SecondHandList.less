@@ -1,0 +1,93 @@
+.esf_search{
+    padding: .1rem .15rem;
+    height: .45rem;
+    div{
+        box-sizing: border-box;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: .04rem;
+        padding: .1rem;
+        overflow: hidden;
+        input{
+            background: #fff;
+            font-size: .13rem;
+            border: none;
+            border-right: 2px solid #ccc;
+            width: 85%;
+        }
+        img{
+            height: .2rem;
+            float: right;
+        }
+    }
+}
+
+.shop_nav{
+    height: .34rem;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    ul{
+        display: flex;
+        width: 100%;
+        li{
+            flex: 1;
+            text-align: center;
+            border-right: 1px solid #ccc;
+            font-size: .13rem;
+        }
+        li:last-child{
+            border: none;
+        }
+    }
+}
+
+.shop_main{
+    padding: .15rem .17rem 0 .15rem;
+    ul{
+        li:last-child{
+            border: none;
+        }
+        li{
+            padding: .085rem 0;
+            border-bottom: 1px solid #ff8a00;
+            div{
+                padding: 0.01rem 0;
+            }
+            .shop_main_img{
+                display: table-cell;
+                img{
+                    height: .68rem;
+                    border-radius: .06rem;
+                }
+            }
+            .shop_main_text{
+                display: table-cell;
+                vertical-align: top;
+                padding-left: .185rem;
+                width: 100%;
+                .shop_main_text_title{
+                    h2{
+                        font-size: .14rem;
+                        font-weight: 600;
+                    }
+                }
+                .shop_main_text_lc{
+                    font-size: .14rem;
+                }
+                .des1{
+                    display: flex;
+                    font-size: .12rem;
+                    justify-content: space-between;
+                    .shop_main_text_price{
+                        color: #ff8a00;
+                    }
+                }
+               .shop_main_text_time{
+                    font-size: .12rem;
+                }
+            }
+        }
+    }
+}

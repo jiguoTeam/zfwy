@@ -1,0 +1,79 @@
+body{
+    background: #F5F5F5;
+}
+.top{
+    background: url(../素材/image/my/bg1.png);
+    background-size: cover;
+    margin-bottom: .1rem;
+    .my_header{
+        flex-direction:row-reverse;
+        background-color: rgba(0,0,0,0);
+        .header_icon{
+            text-align: center;
+            color: #fff;
+            div{
+                margin-left: .2rem;
+                img{
+                    margin: 0;
+                    height: .20rem;
+                    margin-bottom: .02rem;
+                }
+                p{
+                    font-size: .12rem;
+                }
+            }
+        }
+    }
+    .top_center{
+        text-align: center;
+        img{
+            width: .7rem;
+        }
+        button{
+            margin-top: .15rem;
+            margin-bottom: .3rem;
+            width: .8rem;
+            height: .32rem;
+            background: none;
+            border: 1px solid #fff;
+            font-size: .17rem;
+            color: #fff;
+            border-radius: .05rem;
+        }
+    }
+}
+
+.my_my_lis{
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    ul{
+        li{
+            display: flex;
+            padding: 0 .15rem;
+            .my_lis_icon{
+                padding: .13rem 0;
+                img{
+                    height: .14rem;
+                }
+            }
+            .my_lis_main{
+                width: 100%;
+                margin-left: .1rem;
+                padding: .15rem 0;
+                border-bottom: 1px solid #ccc;
+                p{
+                    color: rgb(58, 58, 58);
+                    font-size: .14rem;
+                    background: url(../素材/image/my/right.png) no-repeat right center;
+                    background-size: auto .14rem;
+                }
+            }
+        }
+        li:last-child{
+            .my_lis_main{
+                border: none;
+            }
+        }
+    }
+}
